@@ -1,5 +1,6 @@
 package com.example.myfoodplanapp.viewController;
 
+import com.example.myfoodplanapp.applicationController.DatabaseManager;
 import com.example.myfoodplanapp.applicationController.FoodController;
 import com.example.myfoodplanapp.applicationController.MealController;
 import com.example.myfoodplanapp.model.Food;
@@ -10,9 +11,9 @@ public class UIController {
     private MealController mealController;
     private FoodController foodController;
 
-    public UIController() {
+    public UIController(DatabaseManager databaseManager) {
         this.userInterface = new UserInterface();
-        this.mealController = new MealController();
+        this.mealController = new MealController(databaseManager);
         this.foodController = new FoodController();
     }
 
