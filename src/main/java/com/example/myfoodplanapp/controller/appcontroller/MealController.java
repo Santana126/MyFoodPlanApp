@@ -1,4 +1,4 @@
-package com.example.myfoodplanapp.applicationController;
+package com.example.myfoodplanapp.controller.appcontroller;
 
 import com.example.myfoodplanapp.model.Food;
 import com.example.myfoodplanapp.model.Meal;

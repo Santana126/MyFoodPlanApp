@@ -1,8 +1,8 @@
-package com.example.myfoodplanapp.viewController;
+package com.example.myfoodplanapp.controller.graphicontroller;
 
-import com.example.myfoodplanapp.applicationController.DatabaseManager;
-import com.example.myfoodplanapp.applicationController.FoodController;
-import com.example.myfoodplanapp.applicationController.MealController;
+import com.example.myfoodplanapp.controller.appcontroller.DatabaseManager;
+import com.example.myfoodplanapp.controller.appcontroller.FoodController;
+import com.example.myfoodplanapp.controller.appcontroller.MealController;
 import com.example.myfoodplanapp.model.Food;
 import com.example.myfoodplanapp.view.UserInterface;
 
